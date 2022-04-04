@@ -9,7 +9,7 @@ var size int
 
 // hier heb ik de opzet van de flags gemaakt.
 func init() {
-	flag.IntVar(&size, "m", 5, "Geef hier hoelang je de alarm wil lopen")
+	flag.IntVar(&size, "m", 5, "Geef hier hoelang je de alarm wil lopen!!")
 	flag.Parse()
 }
 
